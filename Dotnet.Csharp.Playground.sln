@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11217.181 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{413CAD51-DF55-4C61-8B42-326A51BBEA09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F748598F-71A8-443D-8BDA-3BE2BCDB5022}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LanguageFeatures", "LanguageFeatures", "{C81730AD-4E47-48BC-91FF-B4D580B604EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{043C210D-D464-4427-8FF5-4DF12569DD24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Architecture", "Architecture", "{46B873ED-D033-4D2D-B517-7588CA707696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{4FFD6DF5-B999-49F0-8972-97D043D8C47E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallerArgumentExpressionDemo", "CallerArgumentExpressionDemo\CallerArgumentExpressionDemo.csproj", "{D5425505-938C-4474-A819-57C1AB9F4044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolatedStringHandlerDemo", "InterpolatedStringHandlerDemo\InterpolatedStringHandlerDemo.csproj", "{BE7EB428-569D-4724-AC87-34D796382BCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5425505-938C-4474-A819-57C1AB9F4044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5425505-938C-4474-A819-57C1AB9F4044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5425505-938C-4474-A819-57C1AB9F4044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5425505-938C-4474-A819-57C1AB9F4044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7EB428-569D-4724-AC87-34D796382BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7EB428-569D-4724-AC87-34D796382BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7EB428-569D-4724-AC87-34D796382BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7EB428-569D-4724-AC87-34D796382BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C81730AD-4E47-48BC-91FF-B4D580B604EA} = {F748598F-71A8-443D-8BDA-3BE2BCDB5022}
+		{043C210D-D464-4427-8FF5-4DF12569DD24} = {F748598F-71A8-443D-8BDA-3BE2BCDB5022}
+		{46B873ED-D033-4D2D-B517-7588CA707696} = {F748598F-71A8-443D-8BDA-3BE2BCDB5022}
+		{4FFD6DF5-B999-49F0-8972-97D043D8C47E} = {F748598F-71A8-443D-8BDA-3BE2BCDB5022}
+		{D5425505-938C-4474-A819-57C1AB9F4044} = {C81730AD-4E47-48BC-91FF-B4D580B604EA}
+		{BE7EB428-569D-4724-AC87-34D796382BCC} = {C81730AD-4E47-48BC-91FF-B4D580B604EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59D5B8A4-C990-4B2E-9ED2-C4D9133349A9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,91 @@
+# Build results
+bin/
+obj/
+out/
+artifacts/
+
+# VS / Rider
+.vs/
+.ReSharper*/
+*.DotSettings.user
+.idea/
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+
+# Temp & cache
+*.tmp
+*.temp
+*.cache
+.cache/
+temp/
+tmp/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuget.props
+*.nuget.targets
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# Coverage & analysis
+coverage/
+TestResults/
+*.coverage
+*.coveragexml
+
+# Build configuration
+launchSettings.json
+
+# Rider / OmniSharp Generated
+.project
+*.pidb
+*.booproj
+*.unityproj
+
+# Generated files
+*.generated.cs
+
+# Local environment config
+*.env
+*.env.local
+.envrc
+
+# Secrets (for demo projects)
+secrets.json
+UserSecrets/
+
+# SQLite / LiteDB / sample DBs
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.litedb
+
+# DS_Store (Mac)
+.DS_Store
+
+# Thumbs (Windows)
+Thumbs.db
+
+# Backup files
+*.bak
+*.old
+*.orig
