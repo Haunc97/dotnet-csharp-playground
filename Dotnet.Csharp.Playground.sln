@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.0.11217.181 d18.0
+VisualStudioVersion = 18.0.11217.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{413CAD51-DF55-4C61-8B42-326A51BBEA09}"
 EndProject
@@ -19,6 +19,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallerArgumentExpressionDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolatedStringHandlerDemo", "InterpolatedStringHandlerDemo\InterpolatedStringHandlerDemo.csproj", "{BE7EB428-569D-4724-AC87-34D796382BCC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{95A98D2D-BF6D-4073-8A8A-E6BA44D23114}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{5F96F9FA-017F-44E7-A924-A41D92248D80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{AA134D40-7EBE-4769-A8BC-070BB7E1D770}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{AB499CA8-E2A5-4FA4-AB20-062AC6B714D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Builder.VehicleAssembly", "DesignPatterns.Builder.VehicleAssembly\DesignPatterns.Builder.VehicleAssembly.csproj", "{F3184954-CD0A-43AA-B269-2A40F1A0358A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +43,10 @@ Global
 		{BE7EB428-569D-4724-AC87-34D796382BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE7EB428-569D-4724-AC87-34D796382BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE7EB428-569D-4724-AC87-34D796382BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3184954-CD0A-43AA-B269-2A40F1A0358A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3184954-CD0A-43AA-B269-2A40F1A0358A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3184954-CD0A-43AA-B269-2A40F1A0358A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3184954-CD0A-43AA-B269-2A40F1A0358A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +58,11 @@ Global
 		{4FFD6DF5-B999-49F0-8972-97D043D8C47E} = {F748598F-71A8-443D-8BDA-3BE2BCDB5022}
 		{D5425505-938C-4474-A819-57C1AB9F4044} = {C81730AD-4E47-48BC-91FF-B4D580B604EA}
 		{BE7EB428-569D-4724-AC87-34D796382BCC} = {C81730AD-4E47-48BC-91FF-B4D580B604EA}
+		{95A98D2D-BF6D-4073-8A8A-E6BA44D23114} = {043C210D-D464-4427-8FF5-4DF12569DD24}
+		{5F96F9FA-017F-44E7-A924-A41D92248D80} = {043C210D-D464-4427-8FF5-4DF12569DD24}
+		{AA134D40-7EBE-4769-A8BC-070BB7E1D770} = {043C210D-D464-4427-8FF5-4DF12569DD24}
+		{AB499CA8-E2A5-4FA4-AB20-062AC6B714D2} = {95A98D2D-BF6D-4073-8A8A-E6BA44D23114}
+		{F3184954-CD0A-43AA-B269-2A40F1A0358A} = {AB499CA8-E2A5-4FA4-AB20-062AC6B714D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {59D5B8A4-C990-4B2E-9ED2-C4D9133349A9}
