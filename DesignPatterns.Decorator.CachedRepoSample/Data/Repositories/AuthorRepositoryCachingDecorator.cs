@@ -3,7 +3,7 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace DesignPatterns.Decorator.CachedRepoSample.Data.Repositories;
 
-public class CachedAuthorRepositoryDecorator : IReadOnlyRepository<Author>
+public class AuthorRepositoryCachingDecorator : IReadOnlyRepository<Author>
 {
     private readonly AuthorRepository _repository;
     private readonly IMemoryCache _cache;
@@ -11,7 +11,7 @@ public class CachedAuthorRepositoryDecorator : IReadOnlyRepository<Author>
     private MemoryCacheEntryOptions cacheOptions;
 
     // alternatively use IDistributedCache if you use redis and multiple services
-    public CachedAuthorRepositoryDecorator(AuthorRepository repository,
+    public AuthorRepositoryCachingDecorator(AuthorRepository repository,
         IMemoryCache cache)
     {
         _repository = repository;
